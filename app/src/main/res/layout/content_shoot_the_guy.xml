@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.shashankgiri.shoottheguy.shootTheGuy"
+    tools:showIn="@layout/activity_shoot_the_guy">
+    <com.example.shashankgiri.shoottheguy.DrawView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/drawView"
+        android:layout_above="@+id/control_buttons" />
+
+    <LinearLayout
+        android:id="@+id/control_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moveLeftButton"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            android:background="@null"
+            android:layout_marginRight="100dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shootButton"
+            android:src="@drawable/ic_adjust_white_48dp"
+            android:background="@null" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/moveRightButton"
+            android:src="@drawable/ic_arrow_forward_white_48dp"
+            android:background="@null"
+            android:layout_marginLeft="100dp" />
+    </LinearLayout>
+
+</RelativeLayout>
