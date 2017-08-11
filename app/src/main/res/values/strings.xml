@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ShootingGame</string>
+    <string name="app_name">shootTheGuy</string>
     <string name="action_settings">Settings</string>
 </resources>

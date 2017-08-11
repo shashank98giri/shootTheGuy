@@ -29,7 +29,7 @@ public class AndroidGuy {
 
         // create a bitmap from the supplied image (the image is the icon that is part of the app)
         android_guy = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(mContext.getResources(),
-                R.mipmap.ic_launcher),50,50, false);
+                R.mipmap.rock),50,50, false);
 
     }
 
