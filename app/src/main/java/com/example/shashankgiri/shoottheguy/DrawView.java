@@ -198,9 +198,7 @@ public class DrawView extends SurfaceView implements SurfaceHolder.Callback {
             if (androidGuy.move() == false) {missedGuy.incrementMissed();
             }
         }
-            if(missedGuy.getMissed()>score.getScore()){
-                drawviewthread.setRunning(false);
-            }
+
     }
 
     // Move the cannon left or right
