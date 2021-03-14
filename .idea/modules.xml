@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShootTheGuy.iml" filepath="$PROJECT_DIR$/.idea/modules/ShootTheGuy.iml" group="ShootTheGuy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ShootTheGuy-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ShootTheGuy-app.iml" group="ShootTheGuy/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/shootTheGuy.iml" filepath="$PROJECT_DIR$/shootTheGuy.iml" />
     </modules>
