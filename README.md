@@ -6,3 +6,8 @@ This is my first project on android app development. This enables a simple shoot
 - All u need is a simple IDE which support android development.I prefer Android Studio for Android projects.You can download it from [this link](https://developer.android.com/studio/index.html)
 - Just clone the project and open it with an IDE of your choice.
 - Run the code and **ENJOY** !!! :+1:
+
+<div>
+  <center>
+    <img src=https://github.com/romadebrian/shootTheGuy/blob/master/screenshot.jpg width=400 height=700 />
+</div>
